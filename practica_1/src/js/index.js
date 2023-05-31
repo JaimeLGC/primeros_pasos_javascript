@@ -1,5 +1,12 @@
-const boton = document.getElementById('boton');
+window.onload = () => {
+    funcionAlert()
+}
 
-boton.addEventListener('click', () => {
-    alert('Hola mundo')
-})
+function funcionAlert() {
+    const boton = document.getElementById('boton');
+
+    boton.addEventListener('click', () => {
+        alert('Hola mundo')
+    })
+}
+
